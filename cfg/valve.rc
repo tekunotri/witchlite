@@ -1,0 +1,7 @@
+r_decal_cullsize 1
+exec joystick.cfg
+exec autoexec.cfg
+exec witchlite.cfg
+stuffcmds
+startupmenu
+sv_unlockedchapters 99

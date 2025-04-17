@@ -1,0 +1,7 @@
+"#base"	"../resource/scheme/colors.res"
+"#base"	"../resource/scheme/fonts-product.res"
+"#base"	"../resource/scheme/fonts.res"
+"#base"	"../resource/scheme/default.res"
+"#base"	"clientscheme_g0R3HUD-master.res"
+"#base"	"clientscheme_berryhud_hex.res"
+"#base"	"clientscheme_LightHUD.res"

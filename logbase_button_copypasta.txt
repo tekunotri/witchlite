@@ -1,0 +1,18 @@
+This file contains the command parameter and value for each unique customization option.
+Create your button as normal, then copy + paste the button code in the appropriate location.
+You will have to handle the aesthetics and ActionSignalLevel on your own.
+
+Customization 1 buttons
+"command"		"engine speed1tgl1;speed2tgl1;speed3tgl1;speed4tgl1"
+"command"		"engine speed1tgl2;speed2tgl2;speed3tgl2;speed4tgl2"
+
+Customization 2 buttons
+"command"		"engine htgl11;htgl21;htgl31"
+"command"		"engine htgl12;htgl22;htgl32"
+
+Customization 3 buttons
+"command"		"engine ammotgl1"
+"command"		"engine ammotgl2"
+
+Save & apply button
+"command"		"engine exec witchlite_save;exec witchlite_generate;hud_reloadscheme"
