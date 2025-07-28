@@ -481,7 +481,62 @@
 				}
 			}
 		}
+		"QuitButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"QuitButton"
+			"xpos"			"rs1"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"0"
+			"tall"			"f6"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"textinsetx"	"0"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"quit"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"RoundedCorners"	"0"
 
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
+
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-5"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_quit"
+				"drawcolor_override" "TanLight"
+			}
+		}
 		"JoinPartyLobbyContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -582,125 +637,6 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
-
-		"QuitButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"QuitButton"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"0"
-			"tall"			"f6"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"0"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		""
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"RoundedCorners"	"0"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"0 0 0 0"
-			"defaultBgColor_override"	"0 0 0 0"
-
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
-		}
-
-		"DisconnectButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"DisconnectButton"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"0"
-			"wide"			"0" [!$POSIX]
-			"wide"			"115" [$POSIX]
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"quit"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"RoundedCorners"	"0"
-			"textinsety"	"2.5"
-			"textinsetx"	"26"
-			"use_proportional_insets"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
-
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
-			}
-		}
-
 		"ResumeButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -759,7 +695,6 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
-
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
