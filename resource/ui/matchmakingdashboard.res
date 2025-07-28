@@ -590,7 +590,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
+			"wide"			"0"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -767,7 +767,7 @@
 			"xpos"			"50"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"150" [!$POSIX]
+			"wide"			"100" [!$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
