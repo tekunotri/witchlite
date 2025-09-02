@@ -18,11 +18,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
-		"team1_max_expand"	"300"
+		"team1_max_expand"	"270" // nicer middleground for 4:3 and 16:9 users
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c45"
-		"team2_max_expand"	"300"
+		"team2_max_expand"	"270"
 
 		"playerpanels_kv"
 		{

@@ -10,7 +10,17 @@
 		"name_width"								"60"
 		"horiz_inset"								"2"
 	}
-
+	"RoundCounter"
+	{
+		"fieldName"		"RoundCounter"
+		"xpos"			"cs-0.5"
+		"ypos"			"-2"
+		"zpos"			"1"		
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -428,13 +438,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	"RoundCounter"
-	{
-		"fieldName"									"RoundCounter"
-		"xpos"										"9999"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+
 	"CountdownLabelShadow"
 	{
 		"ControlName"								"CExLabel"
