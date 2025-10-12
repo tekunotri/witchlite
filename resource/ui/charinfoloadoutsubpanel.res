@@ -337,8 +337,8 @@
 		"Default"									"0"
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
-		"activeimage"								"..\hud\backpack_01"
-		"inactiveimage"								"..\hud\backpack_01_grey"
+		"activeimage"								"replay\thumbnails\backpack_01"
+		"inactiveimage"								"replay\thumbnails\backpack_01_grey"
 		"sound_depressed"							"UI/menusounds.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}
@@ -513,8 +513,8 @@
 		"Default"									"0"
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
-		"activeimage"								"paintkit_tool"
-		"inactiveimage"								"paintkit_tool_bw"
+		"activeimage"								"replay/thumbnails/paintkit_tool"
+		"inactiveimage"								"replay/thumbnails/paintkit_tool_bw"
 		"sound_depressed"							"UI/menusounds.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 	}

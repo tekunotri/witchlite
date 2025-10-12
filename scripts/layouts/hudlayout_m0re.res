@@ -136,7 +136,7 @@
 
 		"TextFont"									"Product10"
 
-		"TeamBlue"								"225 0 255 180"
+		"TeamBlue"									"225 0 255 180"
 		"TeamRed"									"255 0 0 200"
 		"IconColor"									"255 255 255 255"
 		"LocalPlayerColor"							"255 255 255 255"
